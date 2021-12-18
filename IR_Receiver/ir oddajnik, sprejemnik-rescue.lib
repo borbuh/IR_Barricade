@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# LM741-RESCUE-ir_oddajnik,_sprejemnik
+#
+DEF LM741-RESCUE-ir_oddajnik,_sprejemnik U 0 20 Y Y 1 F N
+F0 "U" 150 150 60 H V C CNN
+F1 "LM741-RESCUE-ir_oddajnik,_sprejemnik" 150 250 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 4 0 1 0 -200 200 200 0 -200 -200 -200 200 N
+X ~ 1 0 -400 300 U 40 40 1 1 I
+X - 2 -500 -100 300 R 40 40 1 1 I
+X + 3 -500 100 300 R 40 40 1 1 I
+X V- 4 -100 -400 250 U 40 40 1 1 I
+X ~ 5 100 -400 350 U 40 40 1 1 I
+X ~ 6 500 0 300 L 40 40 1 1 O
+X V+ 7 -100 400 250 D 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# POT-RESCUE-ir_oddajnik,_sprejemnik
+#
+DEF POT-RESCUE-ir_oddajnik,_sprejemnik RV 0 40 Y N 1 F N
+F0 "RV" 0 -100 50 H V C CNN
+F1 "POT-RESCUE-ir_oddajnik,_sprejemnik" 0 0 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -150 50 150 -50 0 1 0 N
+P 3 0 1 0 0 50 -20 70 20 70 F
+X 1 1 -250 0 100 R 40 40 1 1 P
+X 2 2 0 150 80 D 40 40 1 1 P
+X 3 3 250 0 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
